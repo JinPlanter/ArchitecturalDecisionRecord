@@ -11,7 +11,7 @@ Table of Contents:
 
 ### Context:
 
-- We are in the process of developing a mobile application for a retail company, aimed at providing a seamless shopping experience to customers. This application is envisioned to include features such as product browsing, order history, loyalty programs, and more. One of the key architectural decisions is choosing whether the mobile application should be native, web, or hybrid.
+- We are tasked with creating a mobile application for a retail company, aimed at providing a variety of features to the customers. This application is expected to include features such as product browsing, order history, loyalty programs, and offline functionality. One of our key architectural decisions is choosing whether the mobile application should be a native, web, or hybrid app.
 
 <br/>
 
@@ -23,26 +23,22 @@ Table of Contents:
 
 ### Rationale:
 
-- Cross-Platform Compatibility: A hybrid app, by design, allows us to create a single codebase that is deployable on multiple platforms, such as iOS and Android. This approach simplifies development, enhances code reusability, and ensures a consistent user experience across diverse devices.
+- Simplicity: By design, starting with a hybrid app allows us to work with a single codebase that is deployable on both iOS and Android. This simplifies our development and ensures code reusability, as well as ensuring a consistent user experience no matter the device they are on.
 
-- Cost-Efficiency: Building a hybrid app generally requires less development effort and cost in comparison to native apps. This is particularly advantageous for projects with budget constraints, where it's vital to achieve cross-platform compatibility while maintaining financial feasibility.
+- Cost-Efficiency: By deciding on a hybrid app, we can potentially save some costs in having to learn native specific languages or apps. This could be beneficial where budget constraints are concerned, and lets us focus on making sure our features work.
 
-- Web Technologies: Hybrid apps leverage web technologies like HTML, CSS, and JavaScript. This is advantageous if you have web development expertise within the team, as it reduces the learning curve and enhances development speed.
+- Web Technologies: Hybrid apps let us use various languages such as HTML, CSS and Javascript. For our team who already have some firsthand experience with these, this vastly reduces our learning curve and allows us to get a head start, as opposed to having to learn brand new languages for our app.
 
-- Rapid Iteration: Hybrid apps benefit from faster development cycles and updates due to their shared codebase. This enables quicker feature releases, bug fixes, and the capacity to respond promptly to evolving market demands.
-
-- Access to Native Features: Modern hybrid app frameworks, such as React Native and Flutter, offer access to native device features. This bridges the gap between the advantages of native and hybrid development.
+- Rapid Iteration: Hybrid apps benefit from faster development cycles and updates due to their shared codebase. This not only allows us to work on updates quicker, but also ensures that our updates are consistent cross-platform.
 
 <br/>
 
  ### Consequences:
 
-- Performance: While hybrid apps have come a long way in optimizing performance, there might still be a gap when compared to fully native applications. This could affect user experience, especially in scenarios requiring resource-intensive operations.
+- Performance: While we do not consider it a large problem for our app, Hybrid apps in general are not as efficient as native apps when it comes to performance.
 
-- Platform-Specific Features: Implementing platform-specific features can necessitate additional development work and may not fully match the capabilities of fully native apps.
-
-- Dependency on the Hybrid Framework: The project's success relies on the stability and continued support of the chosen hybrid framework. Any changes or updates in the framework that do not align with project requirements could present a challenge.
+- Platform-Specific Features: If we need to add or work around platform specific features, this will require additional development and knowledge from our team, increasing the time required to create this app.
 
 - App Size: The app's binary size may be larger compared to fully native apps due to the inclusion of the hybrid framework.
 
-In view of the need for cross-platform compatibility, cost-efficiency, rapid development, and the capacity to leverage web technologies, a hybrid mobile app emerges as a suitable choice for our retail application.
+Because of the advantages in starting with a hybrid app, We feel that this decision is worth any potential consequences, and therefore seems to be the most optimal choice moving forward.
