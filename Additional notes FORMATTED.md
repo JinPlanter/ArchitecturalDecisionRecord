@@ -2,22 +2,41 @@
 
 Contents:
 
-* [Hybrid](#hybrid-app)
+* [Hybrid App](#hybrid-app)
   * [Context](#context)
   * [Decision](#decision)
   * [Rationale](#rationale)
-* [Details](#details)
-  * [Assumptions](#assumptions)
-  * [Constraints](#constraints)
-  * [Positions](#positions)
-  * [Argument](#argument)
-  * [Implications](#implications)
-* [Related](#related)
-  * [Related decisions](#related-decisions)
-  * [Related requirements](#related-requirements)
-  * [Related artifacts](#related-artifacts)
-  * [Related principles](#related-principles)
-* [Notes](#notes)
+  * [Consequences](#consequences)
+* [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
+  * [UI Framework Selection](#ui-framework-selection)
+    * [Context](#context)
+    * [Decision](#decision)
+    * [Rationale](#rationale)
+    * [Consequences](#consequences)
+* [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
+  * [Backend Language](#backend-language)
+    * [Context](#context)
+    * [Decision](#decision)
+    * [Rationale](#rationale)
+    * [Consequences](#consequences)
+* [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
+  * [Permissions](#permissions)
+    * [Context](#context)
+    * [Decision](#decision)
+    * [Rationale](#rationale)
+    * [Consequences](#consequences)
+* [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
+  * [Data Storage](#data-storage)
+    * [Context](#context)
+    * [Decision](#decision)
+    * [Rationale](#rationale)
+    * [Consequences](#consequences)
+* [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
+  * [Additional Frameworks/Technology Stacks](#additional-frameworkstechnology-stacks)
+    * [Context](#context)
+    * [Decision](#decision)
+    * [Rationale](#rationale)
+    * [Consequences](#consequences)
 
 <br/>
 
@@ -69,7 +88,7 @@ In view of the need for cross-platform compatibility, cost-efficiency, rapid dev
 <br/>
 
 # Architectural Decision Record (ADR)
-## Decision Title: UI Framework Selection
+## UI Framework Selection
 
 ### Context:
 
@@ -114,7 +133,7 @@ In light of the need for cross-platform compatibility, JavaScript proficiency, a
 <br/>
 
 # Architectural Decision Record (ADR)
-## Decision Title: Backend Language
+## Backend Language
 
 ### Context
 
@@ -159,7 +178,7 @@ Considering the need for real-time features, a vibrant ecosystem, and the potent
 <br/>
 
 # Architectural Decision Record (ADR)
-## Decision Title: Permissions
+## Permissions
 
 ### Context
 
@@ -201,7 +220,7 @@ Given the need to balance user privacy, security, and compliance with data prote
 <br/>
 
 # Architectural Decision Record (ADR)
-## Decision Title: Data Storage
+## Data Storage
 
 ### Context
 
@@ -243,7 +262,7 @@ Considering the need to support offline mode, real-time updates, scalability, an
 <br/>
 
 # Architectural Decision Record (ADR)
-## Decision Title: Additional Frameworks/Technology Stacks
+## Additional Frameworks/Technology Stacks
 
 ### Context
 
