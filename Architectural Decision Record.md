@@ -1,12 +1,10 @@
-# Architectural Decision Record (ADR)
-
-Contents:
-
-* [Hybrid App](#hybrid-app)
-  * [Context](#context)
-  * [Decision](#decision)
-  * [Rationale](#rationale)
-  * [Consequences](#consequences)
+Table of Contents:
+* [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
+  * [Hybrid App](#hybrid-app)
+    * [Context](#context)
+    * [Decision](#decision)
+    * [Rationale](#rationale)
+    * [Consequences](#consequences)
 * [Architectural Decision Record (ADR)](#architectural-decision-record-adr)
   * [UI Framework Selection](#ui-framework-selection)
     * [Context](#context)
@@ -38,10 +36,7 @@ Contents:
     * [Rationale](#rationale)
     * [Consequences](#consequences)
 
-<br/>
-
----
-
+# Architectural Decision Record (ADR)
 ## Hybrid App
 
 ### Context:
@@ -81,9 +76,6 @@ Contents:
 - App Size: The app's binary size may be larger compared to fully native apps due to the inclusion of the hybrid framework.
 
 In view of the need for cross-platform compatibility, cost-efficiency, rapid development, and the capacity to leverage web technologies, a hybrid mobile app emerges as a suitable choice for our retail application.
-
-[//ADR-1]
-
 
 <br/>
 
@@ -128,8 +120,6 @@ In view of the need for cross-platform compatibility, cost-efficiency, rapid dev
 
 In light of the need for cross-platform compatibility, JavaScript proficiency, access to native modules, and a performant user experience, React Native emerges as a pragmatic choice for our retail application's UI framework.
 
-[//ADR-2]
-
 <br/>
 
 # Architectural Decision Record (ADR)
@@ -173,8 +163,6 @@ In light of the need for cross-platform compatibility, JavaScript proficiency, a
 
 Considering the need for real-time features, a vibrant ecosystem, and the potential for scalability, Node.js is a suitable choice for the backend language for this retail app. It aligns well with the project's goals and requirements.
 
-[//ADR-3]
-
 <br/>
 
 # Architectural Decision Record (ADR)
@@ -215,8 +203,6 @@ Decision
 
 Given the need to balance user privacy, security, and compliance with data protection regulations, implementing fine-grained permissions control is the appropriate decision for this retail app. It allows us to provide users with transparency and control while ensuring the security of sensitive features and data.
 
-[//ADR-4]
-
 <br/>
 
 # Architectural Decision Record (ADR)
@@ -256,8 +242,6 @@ Decision
 - Dependency on Cloud Services: We will be dependent on the availability and reliability of cloud storage services, which may introduce risk if service interruptions occur.
 
 Considering the need to support offline mode, real-time updates, scalability, and data security, a combination of local device storage and cloud-based storage is the appropriate decision for this retail app. It allows us to provide a seamless user experience while ensuring data availability and security.
-
-[//ADR-5]
 
 <br/>
 
@@ -310,7 +294,3 @@ Considering the need to support offline mode, real-time updates, scalability, an
 - Code Complexity: Implementing Redux for state management may introduce additional complexity to the app's codebase, but it enhances maintainability.
 
 Given the need for efficient navigation, real-time updates, push notifications, analytics, and robust state management, incorporating React Navigation, Firebase, and Redux into the app's development is the appropriate decision. These technologies will contribute to a feature-rich and performant retail app.
-
-[//ADR-6]
-
-<br/>
