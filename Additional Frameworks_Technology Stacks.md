@@ -25,6 +25,9 @@ Table of Contents:
 
     3. Redux for state management, ensuring a predictable and efficient way to manage the app's data.
 
+    4. Nginx for reverse proxy and load balancing to ensure an even distribution of server load which improves overall online retailer uptime and performance.
+
+
 <br/>
 
 ### Rationale
@@ -42,6 +45,9 @@ Table of Contents:
   - State Management: Redux provides a centralized store for managing the app's state, making it easier to maintain and scale as the app grows.
   - Predictable State Changes: Redux enforces a predictable pattern for state changes, which simplifies debugging and enhances maintainability.
 
+- Nginx:
+	- Reverse Proxy: As Nginx acts as a gateway server it redirects client traffic requests to the correct (or idle/vacant) backend server which minimizes the possibility of downtime due to DDoS attacks. Due to Nginx acting as a reverse proxy it also provides the capability to redistribute the load that overloaded servers may encounter due to increase in traffic which will happen especially during sales or holiday shopping.
+
 <br/>
 
 ### Consequences
@@ -54,4 +60,4 @@ Table of Contents:
 
 - Code Complexity: Implementing Redux for state management may introduce additional complexity to the app's codebase, but it enhances maintainability.
 
-Given the need for efficient navigation, real-time updates, push notifications, analytics, and robust state management, incorporating React Navigation, Firebase, and Redux into the app's development is the appropriate decision. These technologies will contribute to a feature-rich and performant retail app.
+Given the need for efficient navigation, real-time updates, push notifications, analytics, and robust state management, incorporating React Navigation, Firebase, Redux, and Nginx into the app's development is the appropriate decision for the retailer's application requirements. These technologies will contribute to a feature-rich and performant retail app.

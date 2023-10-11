@@ -12,7 +12,8 @@ Table of Contents:
 ### Context
 
 - We are tasked with developing a mobile app for a retail company that aims to provide a seamless shopping experience to its customers. The app will have features like product browsing, order history, loyalty programs, and more. One critical decision is how to manage and implement permissions within the app.
-Decision
+
+### Decision
 
 - We have decided to implement fine-grained permissions control within the app, using a combination of built-in mobile platform permissions and custom permission checks.
 
